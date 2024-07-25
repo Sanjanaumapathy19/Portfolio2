@@ -1,31 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>SANJANA</title>
-    </head>
-    <body>
-        <h1>Studying Third Year ECE</h1>
-        <h2>at Sri Krishna College of Engineering and Technology</h2>
-        <a href="https://www.skcet.ac.in" target="_blank">Website Link</a>
-        <p>Sri Krishna College of Engineering and Technology, was established in 1998. It is one of the premier institutes in South India located in Coimbatore, Tamil Nadu. SKCET Coimbatore is affiliated with Anna University with 7 programmes being accredited by NBA.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/SKI-Coimbatore-Logo.webp/225px-SKI-Coimbatore-Logo.webp.png" alt="SKCET">
-        <img src="Images\skcet.jpg" alt="CAMPUS">
-        <P>INDUSTRY TRAINING TAKEN: </P>
-        <ol>
-            <li>C++</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Adithyan's Portfolio</title>
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/originals/5a/4d/70/5a4d70ceb38747d2286188fb2b62419e.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin:  15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #333;
+            color: rgb(12, 9, 9);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        table, tr, th, td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 0.5cm;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <head style="margin-bottom: 10%;">
+            <h1 style="text-align: left; padding-left: 10%;color: aliceblue;">Siva_Adithyan</h1>
+            <h3 style="text-align: left; padding-left: 10%;color: aliceblue;">Full-Stack developer</h3>
+        </head>
+        
+        
+        <nav style="text-align: right;" >
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;" onclick="viewResume()">View Resume</button></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;"onclick="downloadResume()">Download Resume</button></li>
+                
+            </ul>
+        </nav>
+    </header>
+     
+    <section style="display: flex;flex-direction:row; justify-content: space-between; padding: 5px; ">
+
+        <div><img src="My.jpg" style="width: 500px; height: 800px;"></div>
+        <div id="about">
+        <h2 style="padding-bottom: 100px;" >About Me</h2>
+        <p style="font-size: large; line-height: 150%;">I am currently a Third-year Electronics and Communication Engineering student at SKCET
+            seeking internship opportunities. Proactive and hardworking, I maintain up-to-date
+            knowledge in Electronics and Communication technology. I am a fast learner and open to
+            relocating for internship opportunities.
+        </p>
+    </div>
+        <hr>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <body>
+        <centre><table>
+                <tr>
+                    <th>School</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SVMSS</td>
+                    <td>2020</td>
+                    <td>86%</td>
+                </tr>
+                <tr>
+                    <td>SSVM</td>
+                    <td>2022</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td>SKCET</td>
+                    <td>2022-2026</td>
+                    <td>80%</td>
+                </tr>
+        </table></centre>
+        </body>
+        <hr>
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Embedded Systems</li>
+            <li>Iot</li>
+            <li>Circuit Design</li>
+            <li>Solid Works</li>
+            <li>Wire Communication</li>
+        </ul>
+        <hr>
+        <h2>Software Skills</h2>
+        <ul>
+            <li>C++/C</li>
             <li>Java</li>
-            <li>DBMS</li>
-            <li>Advanced Java</li>
-            <li>ADP</li>
+            <li>Html</li>
+            <li>Java Script</li>
+            <li>Type Script</li>
+            <li>Sql</li>
             <li>DSA</li>
-            <li>DAA</li>
-            <li>MERN</li>
-        </ol>
-        <h3>QUESTION: Can you type 200 words in 2 seconds?</h3>
-        <h4>ANSWER: Yes</h4>
-        <h5>Proof::</h5>
-        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vel voluptate incidunt quibusdam. Eos error cum facilis. Dignissimos, dolorum vel veritatis, sint maxime veniam earum excepturi similique doloremque obcaecati, sunt deleniti ad distinctio atque quidem illum dolor asperiores fuga accusamus molestias? Explicabo similique omnis sed ullam alias nihil et accusamus quod quae dicta perspiciatis eaque modi, nam qui necessitatibus esse voluptatum unde excepturi? Tempore, eos optio quaerat at similique neque illo nisi, iusto eligendi magnam voluptate? Voluptatum libero animi ea obcaecati debitis hic incidunt mollitia molestiae, sunt voluptatem, a id, nostrum blanditiis assumenda vel aliquid! Enim minima explicabo dignissimos dolorem laboriosam expedita similique eum non, quis ab sapiente laborum hic harum sint adipisci dolor ratione autem quasi. Fuga, perferendis. Minus accusantium placeat magnam blanditiis, ab eaque quia minima numquam, repudiandae impedit, atque alias unde earum cum exercitationem officia odio. Voluptatibus magni fugiat quos cupiditate a cum aut voluptatem commodi voluptate! Iusto dolores vero asperiores! Ab, iusto voluptatibus id sequi sed nobis mollitia earum ullam natus nemo praesentium dicta a vitae deleniti architecto, consequuntur quia ex voluptatum non, officia repellat nesciunt quis. Illum laborum commodi aliquid veniam facilis. Quia ea repudiandae est. Doloremque eum, sint unde animi dolore ipsam labore. Commodi.</h6>
-        <h4>CONTACT:</h4>
-        <h7>placement.skcet.ac.in</h7>
-    </body>
+        </ul>
+        <hr>
+        <h2>Personals Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Communication Skill</li>
+            <li>Creative and Logical Thinking</li>
+            <li>Free launcer</li>
+            <li>Technical Support</li>
+            <li>Project Management</li>
+        </ul>
+        <hr>
+    </section>
+    <section id="learning">
+        <h2>Learning</h2>
+        <p>Completed in-plant training in embedded systems at Zero Value Infotech.</p>
+        <p></p>
+        <hr>
+    </section>
+    
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>Proteus</li>
+            <li>BLYNK IoT</li>
+            <li>Pycharm</li>
+            <li>VScode</li>
+            <li>GIT</li>
+            <li>GitHub</li>
+            <li>Adobe applications</li> 
+        </ul>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                Developing an AI Powered Energy Management System for an
+                Industries</li><br>
+            <li>Estimation of inflow to a reservoir from the rainfall considering soil moisture in its
+                catchment and releases from upstream reservoirs and automatically opening of reservior
+                gates for moderately releasing the water to avoid the flooding in a basin.</li><br>
+            <li>Our objective is to bridge the digital divide by providing access to technology, connectivity,
+                and digital literacy in remote regions, fostering socio-economic growth and inclusion.</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+        </ul>
+        <hr>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <h4>Sivaadithyan Nirmalkumar</h4>
+        <p>Email: dr.adithnirmal@gmail.com</p>
+        <p>Phone: +91 82209 06499</p>
+        <hr>
+    </section>
+
+    <script>
+        function viewResume() {
+            window.open('Resume.pdf', '_blank');
+        }
+
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'Resume.pdf';
+            link.download = 'Siva_Adithyan_Resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+    <!-- <script>
+        function myFunction() {
+          var x = document.createElement("IMG");
+          x.setAttribute("src", "Resume.pdf");
+          x.setAttribute("width", "304");
+          x.setAttribute("height", "228");
+          x.setAttribute("alt", "Resume");
+          document.body.appendChild(x);
+        }
+        </script> -->
+</body>
 </html>
